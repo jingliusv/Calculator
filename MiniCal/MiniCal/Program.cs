@@ -22,7 +22,7 @@ namespace MiniCal
                 string operation = Console.ReadLine();
 
                 double result = c.Caculate(operation, num1, num2);
-                Console.WriteLine($"Resultatet: {result}");
+                Console.WriteLine($"Resultat: {result}");
             }
             catch(Exception e)
             {

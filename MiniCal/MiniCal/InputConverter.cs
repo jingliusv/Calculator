@@ -11,7 +11,7 @@ namespace MiniCal
         public double ConvertInputToNum(string input)
         {
             double convertedNumber;
-            if (!double.TryParse(input, out convertedNumber))
+            if (!double.TryParse(input.Trim(), out convertedNumber))
                 throw new ArgumentException("Mata in en nummer.");
             return convertedNumber;
         }
